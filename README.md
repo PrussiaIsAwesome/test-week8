@@ -2,7 +2,7 @@
 
 What do jQuery selectors start with?
 
-[[answer]]
+$
 
 What's the problem with this code
 in your html:
@@ -10,7 +10,7 @@ in your html:
 in your javascript:
 $(".another-element").hide();
 
-[[answer]]
+$(".my-element").hide();
 
 What's wrong with this code:
 in your html:
@@ -18,13 +18,13 @@ in your html:
 in your javascript:
 $("#hideMe").hide();
 
-[[answer]]
+it is a class so it has to be .my-element
 
 If you have a FOLDER named lib and a FILE named app.js, why won't this link to your javascript work?
 <script src="app.js"></script>
 
-[[answer]]
+It would have to also link to the folder so it would look like this <script src=”lib/app.js”></script>
 
 What can you tell me about this: <input type="text"/> what is it? what will we be using them for?
 
-[[answer]]
+it specifies where someone can enter something
